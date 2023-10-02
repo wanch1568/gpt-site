@@ -4,7 +4,7 @@
 import sys
 import openai
 def chat():
-    openai.api_key = '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'
+    openai.api_key = '*************'
     completion = openai.ChatCompletion.create(
         model = 'gpt-3.5-turbo',
         messages = [
